@@ -1,3 +1,153 @@
+body{
+    background-color: #2c4765;
+}
+div{
+    margin-bottom: 25px;
+}
+
 .flat1{
-    color: aqua;
+    background-color: #4384f2; 
+    color: white;
+    font-size: larger;
+    border: none;
+    width: 100px;
+    height: 45px;
+
+}
+.flat1:hover{
+    background-color: #3a70c1; 
+    color: white;
+    border: none;
+    width: 100px;
+    height: 45px;
+
+}
+
+.flat2{
+    background-color: #f9c44f; 
+    color: white;
+    border: none;
+    width: 65px;
+    height: 35px;
+}
+.flat2:hover{
+    background-color: #d5aa56; 
+    color: white;
+    border: none;
+    width: 65px;
+    height: 35px;
+}
+
+.round1{
+    background-color: #33a952; 
+    color: white;
+    font-size: larger;
+    border: 0;
+    outline: none;
+    border-radius: 99em;
+    width: 100px;
+    height: 45px;
+}
+.round1:hover{
+    background-color: #2f8a58; 
+    font-size: larger;
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 99em;
+    width: 100px;
+    height: 45px;
+}
+
+.round2{
+    background-color: #f94963; 
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 99em;
+    width: 65px;
+    height: 35px;
+}
+.round2:hover{
+    background-color: #d24f62; 
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 99em;
+    width: 65px;
+    height: 35px;
+}
+
+.flat_ghost1{
+    background-color: transparent; 
+    color: white;
+    font-size: larger;
+    border: 3px solid #e64135;
+    width: 100px;
+    height: 45px;
+
+}
+.flat_ghost1:hover{
+    background-color: #e64135;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 45px;
+
+}
+
+.flat_ghost2{
+    background-color: transparent; 
+    color: white;
+    border: 3px solid #b84388;
+    width: 65px;
+    height: 35px;
+
+}
+.flat_ghost2:hover{
+    background-color: #b84388;
+    border: 3px solid #b84388;
+    color: white;
+    width: 65px;
+    height: 35px;
+
+}
+
+
+.round_ghost1{
+    background-color: transparent; 
+    color: white;
+    border: 3px solid #bd971f;
+    font-size: larger;
+    outline: none;
+    border-radius: 99em;
+    width: 100px;
+    height: 45px;
+}
+.round_ghost1:hover{
+    background-color: #bd971f; 
+    font-size: larger;
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 99em;
+    width: 100px;
+    height: 45px;
+}
+
+.round_ghost2{
+    background-color: transparent;
+    border: 3px solid #3e8e76;
+    color: white;
+    border-radius: 99em;
+    width: 65px;
+    height: 35px;
+}
+.round_ghost2:hover{
+    background-color: #3e8e76;
+    border: 3px solid #3e8e76; 
+    color: white;
+    border-radius: 99em;
+    width: 65px;
+    height: 35px;
 }

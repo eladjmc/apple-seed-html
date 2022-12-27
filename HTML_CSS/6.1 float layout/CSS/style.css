@@ -12,18 +12,12 @@
 border: 2px solid black;
 }
 
-.content_container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 .header_container{
     background: orange;
     border: 1px solid black;
     margin: 5px 0;
     text-align: center;
+    height: 45px;
 }
 .left_container{
     float: left;

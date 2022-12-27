@@ -1,0 +1,22 @@
+div{
+    width: 400px;
+}
+
+.border_div{
+    border: 1px solid red;
+    font-size: larger;
+    border-radius: 7px;
+}
+
+.bold_div{
+    
+    font-style: italic;
+    font-weight: bold;
+}
+.shadow_div{
+    box-shadow: 3px 3px rgb(177, 173, 173);
+    background-color: black;
+    color: white;
+    
+}
+

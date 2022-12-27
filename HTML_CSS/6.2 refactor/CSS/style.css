@@ -1,0 +1,41 @@
+
+body{
+    background-color: rgb(213, 213, 213);
+}
+.profile_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 350px;
+    height: 600px;
+    box-shadow: 5px 5px 5px 5px #a7a7a7;
+    background-color: #adb1e9;
+}
+.card_img{
+    width: 100%;
+   
+}
+.card_title{
+    font-family:'Anton';
+    font-weight: bold;
+    font-size: x-large;
+
+}
+.card_sub_titles{
+    font-size: larger;
+    font-family: "Cabin";
+}
+.card_links{
+    padding-top: 40px;
+    color: rgb(36, 31, 195);
+    
+}
+.intro{
+    font-family: "Bitter";
+    padding-top: 7px;
+}
+.game_link_button{
+    border-radius: 4px;
+}

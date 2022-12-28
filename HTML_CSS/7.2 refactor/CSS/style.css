@@ -48,6 +48,8 @@
     box-shadow: 5px 5px 5px 5px #727272;
     background-color: #a7a7a7;
     margin-bottom: 20px;
+    text-align: center;
+    padding-top: 15px;
 }
 
 .flat1{
@@ -58,6 +60,8 @@
     border: none;
     width: 100px;
     height: 45px;
+    text-decoration: none;
+    padding: 10px;
 
 }
 .flat1:hover{
@@ -67,11 +71,12 @@
     border: none;
     width: 100px;
     height: 45px;
+    text-decoration: none;
+    padding: 10px;
 
 }
-
 .nav_button_git{
-    margin-left: 33%;
+
 }
 .nav_button_linkedin{
     margin-left: 5%;

@@ -22,6 +22,13 @@ section>span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2rem;
 }
+section>.flat1 {
+    width: 130px;
+}
+section>.flat1:hover {
+    width: 130px;
+    background-color: #424242;
+}
 
 .profile_container{
     height: 100vh;
@@ -60,6 +67,7 @@ section>span {
 }
 .game_link_button{
     border-radius: 4px;
+    cursor: pointer;
 }
 .navbar{
     width: 100%;
@@ -97,9 +105,7 @@ section>span {
     padding: 10px;
 
 }
-.nav_button_git{
 
-}
 .nav_button_linkedin{
     margin-left: 5%;
 }

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+header>.div-one{
+    background-color: green;
+}
+
+.div-two{
+    background-color: blue;
+}
+
+.div-three{
+    background-color: red;
+}

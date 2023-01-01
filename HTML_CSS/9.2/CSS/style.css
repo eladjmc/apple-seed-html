@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  width: 250px;
+  background-color: rgb(39, 38, 38);
+  color: white;
+}
+
+@media (max-width: calc(251px * 4 + 1)) {
+  div {
+    display: block;
+
+  }
+}
+
+@media (min-width: calc(251px * 4 )) {
+  div {
+    display: inline-block;
+  }
+}

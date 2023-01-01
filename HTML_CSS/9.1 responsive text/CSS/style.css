@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{display: none}
+
+@media (max-width: 500px){
+    h1.phone{
+        display: block;
+    }
+}
+
+@media  (min-width: 501px) and (max-width: 768px){
+    h1.tablet{
+        display: block;
+    }
+}
+@media  (min-width: 769px){
+    h1.screen{
+        display: block;
+    }
+}
+
+div {
+    margin-top: 8%;
+    text-align: center;
+}
+

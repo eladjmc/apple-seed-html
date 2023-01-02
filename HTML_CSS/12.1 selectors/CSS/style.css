@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-span::after{
+    content: " (https://www.appleseeds.org.il)";
+    color: rgb(204, 148, 247);
+    cursor: pointer;
+}

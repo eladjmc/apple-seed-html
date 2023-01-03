@@ -11,6 +11,7 @@ span.tool-tip{
     position: relative;
     
 }
+
 .tool-tip::after{
     visibility: hidden;
     width: 120px;
@@ -29,6 +30,7 @@ span.tool-tip{
     border-width: 5px;
     opacity: 1;
     transition: opacity 0.3s;
+    border-style: solid;
 }
 
 .tool-tip[data-tooltip="textush"]:hover::after{
@@ -36,7 +38,7 @@ span.tool-tip{
     visibility: visible;
     position: absolute;
     content: "This is cool";
-    
+    border-color: black transparent transparent transparent;
 }
 
 .tool-tip:hover{

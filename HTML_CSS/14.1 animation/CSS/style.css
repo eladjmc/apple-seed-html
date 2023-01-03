@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+    
+  --color-box-one: rgb(153, 241, 246);
+  --color-box-two: blue;
+}
+
+.flex {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: var(--color-box-one);
+    width: 30rem;
+    min-height: 30rem;
+    position: relative;
+}
+
+.box::after {
+    content: "";
+    background-color: var(--color-box-two);
+    width: 30rem;
+    min-height: 30rem;
+    background-color: var(--color-box-two);
+    left: 0;
+    top: 0;
+    position: absolute;
+    transition: width 2s;
+}
+
+.box:hover::after{
+    width: 0;
+}

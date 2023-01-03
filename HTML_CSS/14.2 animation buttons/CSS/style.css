@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 62.5%;
+}
+button {
+  width: 15rem;
+  height: 7rem;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+.flex-background {
+  background-color: #e2e4e5;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons-container-row {
+  width: 50vw;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  position: relative;
+}
+
+.button-1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  transition: height 1s;
+}
+.button-1:hover::after {
+  content: "Cool!";
+  height: 100%;
+}
+
+.button-2 > span {
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.button-2::before{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(0, 21, 255);
+    left: 0;
+    top: 0;
+    transition: width 1s;
+}
+.button-2:hover::before {
+  width: 100%;
+}
+
+.button-3 > span {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+.button-3::before {
+    content: "";
+    width: 7rem;
+    height: 15rem;
+    position: absolute;
+    background-color: #ffff00;
+    left: -7.2rem;
+    top: -0rem;
+    transition: all 1s;
+    transform-origin: top right;
+    
+}
+
+
+.button-3:hover::before {
+    transform: rotate(-90deg);
+    
+}
+
+.button-4::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "Scale";
+    width: 30rem;
+    height: 14rem;
+    position: absolute;
+    color: white;
+    font-size: 10rem;
+    background-color: #000;
+    left: -50%;
+    top: -50%;
+    transition: all 1s;
+    opacity: 0;
+}
+.button-4:hover::before {
+    font-size: 1.6rem;
+    opacity: 1;
+}
+
+
+.button-5::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    background-color: #c800ff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transform:  skew(0,0);
+    transition: all 1s;
+    z-index: -1;
+    
+}
+.button-5{
+    transition: all 1s;
+}
+
+.button-5:hover {
+    transform:  skewY(-5deg);
+}
+.button-5:hover::before{
+    transform:  skew(180deg,180deg);
+    left: 0;
+    top:0;
+    width: 15.5rem;
+    height: 7.5rem;
+
+}
+
+.button-5::after {
+    content: "Skew";
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: transform 1s;
+}
+
+.button-5:hover::after {
+    transform:  skewY(10deg) translate(-50%,-50%);
+ 
+}
+
+

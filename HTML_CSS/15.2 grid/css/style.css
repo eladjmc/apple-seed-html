@@ -18,13 +18,13 @@ body, html {
 
 .grid-container{
     height: 50vh;
-    width: 35vw;
+    width: 60vw;
     display: grid;
     gap: 1rem;
     grid-template-areas: 
-    'up-left up-left up-left up-left'
-    'up-right up-right middle-right middle-right'
-    'up-right up-right middle-left down '
+    'up-left up-left up-right up-right'
+    'middle-left middle-right middle-right middle-right'
+    'down down down down'
     ;
 }
 div>div>div{
@@ -42,13 +42,13 @@ div>div>div{
 }
 .middle-left{
     grid-area:middle-left;
-    background-color: #eb57dd;
+    background-color: rgb(124, 245, 124);
 }
 .middle-right{
     grid-area:middle-right;
-    background-color: rgb(124, 245, 124);
+    background-color: #eb57dd;
 }
 .down{
     grid-area:down;
-    background-color: #eb57dd;
+    background-color: rgb(242, 217, 53);
 }
